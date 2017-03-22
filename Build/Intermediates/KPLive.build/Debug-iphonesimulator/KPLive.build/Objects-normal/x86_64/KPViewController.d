@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/liukunpeng/Desktop/KPLive/KPLive/Class/Other/KPViewController.m \
+  /Users/liukunpeng/Desktop/KPLive/KPLive/Class/Other/KPLive.pch \
+  /Users/liukunpeng/Desktop/KPLive/KPLive/Class/Other/KPMacros.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h \
+  /Users/liukunpeng/Desktop/KPLive/KPLive/Class/Other/KPViewController.h

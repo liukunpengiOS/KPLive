@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A37A14D1E80FDBE005F1031 /* KPAdvertise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37A14C1E80FDBE005F1031 /* KPAdvertise.m */; };
+		2A37A1501E80FF52005F1031 /* KPAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37A14F1E80FF52005F1031 /* KPAdvertiseView.m */; };
+		2A37A1521E80FF98005F1031 /* KPAdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37A1511E80FF98005F1031 /* KPAdvertiseView.xib */; };
+		2A37A1551E810B67005F1031 /* KPCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37A1541E810B67005F1031 /* KPCacheHelper.m */; };
+		2A37A1591E811C4F005F1031 /* KPLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37A1571E811C4F005F1031 /* KPLaunchController.m */; };
+		2A37A15A1E811C4F005F1031 /* KPLaunchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37A1581E811C4F005F1031 /* KPLaunchController.xib */; };
+		2A37A1621E812A8D005F1031 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37A1611E812A8D005F1031 /* LFLivePreview.m */; };
+		2A37A1641E820787005F1031 /* kunpeng.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2A37A1631E820787005F1031 /* kunpeng.JPG */; };
+		2A37A1691E822CBE005F1031 /* KPLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37A1671E822CBE005F1031 /* KPLoginController.m */; };
+		2A37A16A1E822CBE005F1031 /* KPLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37A1681E822CBE005F1031 /* KPLoginController.xib */; };
+		2AF8B7211E7920AF000E49DF /* KPBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7201E7920AF000E49DF /* KPBaseController.m */; };
+		2AF8B7271E7920D4000E49DF /* KPShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7261E7920D4000E49DF /* KPShowController.m */; };
+		2AF8B72A1E7920EB000E49DF /* KPMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7291E7920EB000E49DF /* KPMeController.m */; };
+		2AF8B72D1E7921B8000E49DF /* KPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B72C1E7921B8000E49DF /* KPNavigationController.m */; };
+		2AF8B7361E7A1F1F000E49DF /* KPFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7351E7A1F1F000E49DF /* KPFocusController.m */; };
+		2AF8B73F1E7A291D000E49DF /* KPShowTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B73E1E7A291D000E49DF /* KPShowTopView.m */; };
+		2AF8B7431E7A57D1000E49DF /* AFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7421E7A57D1000E49DF /* AFHttpTool.m */; };
+		2AF8B7461E7A5851000E49DF /* AFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7451E7A5851000E49DF /* AFHttpClient.m */; };
+		2AF8B7491E7A6666000E49DF /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7481E7A6666000E49DF /* UIImageView+SDWebImage.m */; };
+		2AF8B74D1E7A7881000E49DF /* KPBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B74C1E7A7881000E49DF /* KPBaseHandler.m */; };
+		2AF8B7511E7A7952000E49DF /* KPShowHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7501E7A7952000E49DF /* KPShowHandler.m */; };
+		2AF8B7541E7B718B000E49DF /* KPHotLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7531E7B718B000E49DF /* KPHotLiveModel.m */; };
+		2AF8B7571E7B719D000E49DF /* KPCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7561E7B719D000E49DF /* KPCreator.m */; };
+		2AF8B75A1E7B720D000E49DF /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7591E7B720D000E49DF /* MJExtensionConfig.m */; };
+		2AF8B75D1E7B8788000E49DF /* KPHotLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B75C1E7B8788000E49DF /* KPHotLiveCell.m */; };
+		2AF8B76B1E7B8D9A000E49DF /* UIImageView+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B76A1E7B8D9A000E49DF /* UIImageView+Corner.m */; };
+		2AF8B76E1E7BAED6000E49DF /* KPHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B76D1E7BAED6000E49DF /* KPHotController.m */; };
+		2AF8B7711E7BB08C000E49DF /* KPHotAvatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7701E7BB08C000E49DF /* KPHotAvatorView.m */; };
+		2AF8B7751E7BDF00000E49DF /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7741E7BDF00000E49DF /* IJKMediaFramework.framework */; };
+		2AF8B7771E7BDF3F000E49DF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7761E7BDF3F000E49DF /* AudioToolbox.framework */; };
+		2AF8B7791E7BDF48000E49DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7781E7BDF48000E49DF /* AVFoundation.framework */; };
+		2AF8B77B1E7BDF50000E49DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B77A1E7BDF50000E49DF /* CoreGraphics.framework */; };
+		2AF8B77D1E7BDF59000E49DF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B77C1E7BDF59000E49DF /* CoreMedia.framework */; };
+		2AF8B77F1E7BDF60000E49DF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B77E1E7BDF60000E49DF /* CoreVideo.framework */; };
+		2AF8B7811E7BDF69000E49DF /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7801E7BDF69000E49DF /* libbz2.tbd */; };
+		2AF8B7831E7BDF71000E49DF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7821E7BDF71000E49DF /* libz.tbd */; };
+		2AF8B7851E7BDF7A000E49DF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7841E7BDF7A000E49DF /* MediaPlayer.framework */; };
+		2AF8B7871E7BDF83000E49DF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7861E7BDF83000E49DF /* MobileCoreServices.framework */; };
+		2AF8B7891E7BDF8A000E49DF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B7881E7BDF8A000E49DF /* OpenGLES.framework */; };
+		2AF8B78B1E7BDF92000E49DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B78A1E7BDF92000E49DF /* QuartzCore.framework */; };
+		2AF8B78D1E7BDF99000E49DF /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF8B78C1E7BDF99000E49DF /* VideoToolbox.framework */; };
+		2AF8B7931E7BE02A000E49DF /* KPShowPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7921E7BE02A000E49DF /* KPShowPlayerController.m */; };
+		2AF8B79B1E7F6ECE000E49DF /* KPShowChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7991E7F6ECE000E49DF /* KPShowChatController.m */; };
+		2AF8B79C1E7F6ECE000E49DF /* KPShowChatController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8B79A1E7F6ECE000E49DF /* KPShowChatController.xib */; };
+		2AF8B7A21E7F886E000E49DF /* KPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7A11E7F886E000E49DF /* KPLocationManager.m */; };
+		2AF8B7AC1E7FAEA8000E49DF /* KPNearCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7AA1E7FAEA8000E49DF /* KPNearCollectionCell.m */; };
+		2AF8B7AD1E7FAEA8000E49DF /* KPNearCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8B7AB1E7FAEA8000E49DF /* KPNearCollectionCell.xib */; };
+		2AF8B7B11E7FB037000E49DF /* KPNearController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8B7AF1E7FB037000E49DF /* KPNearController.m */; };
+		2AF8B7B21E7FB037000E49DF /* KPNearController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8B7B01E7FB037000E49DF /* KPNearController.xib */; };
+		2AFBBC621E78DF43007F63AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBC611E78DF43007F63AB /* main.m */; };
+		2AFBBC6B1E78DF43007F63AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBBC691E78DF43007F63AB /* Main.storyboard */; };
+		2AFBBC6E1E78DF43007F63AB /* KPLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBC6C1E78DF43007F63AB /* KPLive.xcdatamodeld */; };
+		2AFBBC701E78DF43007F63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBBC6F1E78DF43007F63AB /* Assets.xcassets */; };
+		2AFBBC731E78DF43007F63AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBBC711E78DF43007F63AB /* LaunchScreen.storyboard */; };
+		2AFBBC7E1E78DF43007F63AB /* KPLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBC7D1E78DF43007F63AB /* KPLiveTests.m */; };
+		2AFBBC891E78DF43007F63AB /* KPLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBC881E78DF43007F63AB /* KPLiveUITests.m */; };
+		2AFBBCB61E78E07E007F63AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBCB01E78E07E007F63AB /* AppDelegate.m */; };
+		2AFBBCC01E78E5F5007F63AB /* KPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBCBF1E78E5F5007F63AB /* KPTabBarController.m */; };
+		2AFBBCC31E78E803007F63AB /* KPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBCC21E78E803007F63AB /* KPTabBar.m */; };
+		95C13C171BB9E906C9BD8BCD /* Pods_KPLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C3FCD920D172AF7CC3AE5E /* Pods_KPLive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AFBBC7A1E78DF43007F63AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFBBC551E78DF42007F63AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFBBC5C1E78DF42007F63AB;
+			remoteInfo = KPLive;
+		};
+		2AFBBC851E78DF43007F63AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFBBC551E78DF42007F63AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFBBC5C1E78DF42007F63AB;
+			remoteInfo = KPLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C76BFF4E47A4925187723C0 /* Pods-KPLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KPLive/Pods-KPLive.debug.xcconfig"; sourceTree = "<group>"; };
+		17C3FCD920D172AF7CC3AE5E /* Pods_KPLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A37A14B1E80FDBE005F1031 /* KPAdvertise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAdvertise.h; sourceTree = "<group>"; };
+		2A37A14C1E80FDBE005F1031 /* KPAdvertise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAdvertise.m; sourceTree = "<group>"; };
+		2A37A14E1E80FF52005F1031 /* KPAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAdvertiseView.h; sourceTree = "<group>"; };
+		2A37A14F1E80FF52005F1031 /* KPAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAdvertiseView.m; sourceTree = "<group>"; };
+		2A37A1511E80FF98005F1031 /* KPAdvertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPAdvertiseView.xib; sourceTree = "<group>"; };
+		2A37A1531E810B67005F1031 /* KPCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPCacheHelper.h; sourceTree = "<group>"; };
+		2A37A1541E810B67005F1031 /* KPCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPCacheHelper.m; sourceTree = "<group>"; };
+		2A37A1561E811C4F005F1031 /* KPLaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPLaunchController.h; sourceTree = "<group>"; };
+		2A37A1571E811C4F005F1031 /* KPLaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPLaunchController.m; sourceTree = "<group>"; };
+		2A37A1581E811C4F005F1031 /* KPLaunchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPLaunchController.xib; sourceTree = "<group>"; };
+		2A37A1601E812A8D005F1031 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		2A37A1611E812A8D005F1031 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		2A37A1631E820787005F1031 /* kunpeng.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kunpeng.JPG; sourceTree = "<group>"; };
+		2A37A1661E822CBE005F1031 /* KPLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPLoginController.h; sourceTree = "<group>"; };
+		2A37A1671E822CBE005F1031 /* KPLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPLoginController.m; sourceTree = "<group>"; };
+		2A37A1681E822CBE005F1031 /* KPLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPLoginController.xib; sourceTree = "<group>"; };
+		2AF8B71F1E7920AF000E49DF /* KPBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBaseController.h; sourceTree = "<group>"; };
+		2AF8B7201E7920AF000E49DF /* KPBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBaseController.m; sourceTree = "<group>"; };
+		2AF8B7251E7920D4000E49DF /* KPShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPShowController.h; sourceTree = "<group>"; };
+		2AF8B7261E7920D4000E49DF /* KPShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPShowController.m; sourceTree = "<group>"; };
+		2AF8B7281E7920EB000E49DF /* KPMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPMeController.h; sourceTree = "<group>"; };
+		2AF8B7291E7920EB000E49DF /* KPMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPMeController.m; sourceTree = "<group>"; };
+		2AF8B72B1E7921B8000E49DF /* KPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPNavigationController.h; sourceTree = "<group>"; };
+		2AF8B72C1E7921B8000E49DF /* KPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPNavigationController.m; sourceTree = "<group>"; };
+		2AF8B7341E7A1F1F000E49DF /* KPFocusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPFocusController.h; sourceTree = "<group>"; };
+		2AF8B7351E7A1F1F000E49DF /* KPFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPFocusController.m; sourceTree = "<group>"; };
+		2AF8B73D1E7A291D000E49DF /* KPShowTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPShowTopView.h; sourceTree = "<group>"; };
+		2AF8B73E1E7A291D000E49DF /* KPShowTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPShowTopView.m; sourceTree = "<group>"; };
+		2AF8B7401E7A5723000E49DF /* APIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		2AF8B7411E7A57D1000E49DF /* AFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttpTool.h; sourceTree = "<group>"; };
+		2AF8B7421E7A57D1000E49DF /* AFHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHttpTool.m; sourceTree = "<group>"; };
+		2AF8B7441E7A5851000E49DF /* AFHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttpClient.h; sourceTree = "<group>"; };
+		2AF8B7451E7A5851000E49DF /* AFHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHttpClient.m; sourceTree = "<group>"; };
+		2AF8B7471E7A6666000E49DF /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		2AF8B7481E7A6666000E49DF /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		2AF8B74B1E7A7881000E49DF /* KPBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBaseHandler.h; sourceTree = "<group>"; };
+		2AF8B74C1E7A7881000E49DF /* KPBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBaseHandler.m; sourceTree = "<group>"; };
+		2AF8B74F1E7A7952000E49DF /* KPShowHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPShowHandler.h; sourceTree = "<group>"; };
+		2AF8B7501E7A7952000E49DF /* KPShowHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPShowHandler.m; sourceTree = "<group>"; };
+		2AF8B7521E7B718B000E49DF /* KPHotLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPHotLiveModel.h; sourceTree = "<group>"; };
+		2AF8B7531E7B718B000E49DF /* KPHotLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPHotLiveModel.m; sourceTree = "<group>"; };
+		2AF8B7551E7B719D000E49DF /* KPCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPCreator.h; sourceTree = "<group>"; };
+		2AF8B7561E7B719D000E49DF /* KPCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPCreator.m; sourceTree = "<group>"; };
+		2AF8B7581E7B720D000E49DF /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		2AF8B7591E7B720D000E49DF /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		2AF8B75B1E7B8788000E49DF /* KPHotLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPHotLiveCell.h; sourceTree = "<group>"; };
+		2AF8B75C1E7B8788000E49DF /* KPHotLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPHotLiveCell.m; sourceTree = "<group>"; };
+		2AF8B7691E7B8D9A000E49DF /* UIImageView+Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Corner.h"; sourceTree = "<group>"; };
+		2AF8B76A1E7B8D9A000E49DF /* UIImageView+Corner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Corner.m"; sourceTree = "<group>"; };
+		2AF8B76C1E7BAED6000E49DF /* KPHotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPHotController.h; sourceTree = "<group>"; };
+		2AF8B76D1E7BAED6000E49DF /* KPHotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPHotController.m; sourceTree = "<group>"; };
+		2AF8B76F1E7BB08C000E49DF /* KPHotAvatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPHotAvatorView.h; sourceTree = "<group>"; };
+		2AF8B7701E7BB08C000E49DF /* KPHotAvatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPHotAvatorView.m; sourceTree = "<group>"; };
+		2AF8B7741E7BDF00000E49DF /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		2AF8B7761E7BDF3F000E49DF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2AF8B7781E7BDF48000E49DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2AF8B77A1E7BDF50000E49DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AF8B77C1E7BDF59000E49DF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2AF8B77E1E7BDF60000E49DF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2AF8B7801E7BDF69000E49DF /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		2AF8B7821E7BDF71000E49DF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2AF8B7841E7BDF7A000E49DF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2AF8B7861E7BDF83000E49DF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2AF8B7881E7BDF8A000E49DF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2AF8B78A1E7BDF92000E49DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2AF8B78C1E7BDF99000E49DF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2AF8B7911E7BE02A000E49DF /* KPShowPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPShowPlayerController.h; sourceTree = "<group>"; };
+		2AF8B7921E7BE02A000E49DF /* KPShowPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPShowPlayerController.m; sourceTree = "<group>"; };
+		2AF8B7981E7F6ECE000E49DF /* KPShowChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPShowChatController.h; sourceTree = "<group>"; };
+		2AF8B7991E7F6ECE000E49DF /* KPShowChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPShowChatController.m; sourceTree = "<group>"; };
+		2AF8B79A1E7F6ECE000E49DF /* KPShowChatController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPShowChatController.xib; sourceTree = "<group>"; };
+		2AF8B7A01E7F886E000E49DF /* KPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPLocationManager.h; sourceTree = "<group>"; };
+		2AF8B7A11E7F886E000E49DF /* KPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPLocationManager.m; sourceTree = "<group>"; };
+		2AF8B7A91E7FAEA8000E49DF /* KPNearCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPNearCollectionCell.h; sourceTree = "<group>"; };
+		2AF8B7AA1E7FAEA8000E49DF /* KPNearCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPNearCollectionCell.m; sourceTree = "<group>"; };
+		2AF8B7AB1E7FAEA8000E49DF /* KPNearCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPNearCollectionCell.xib; sourceTree = "<group>"; };
+		2AF8B7AE1E7FB037000E49DF /* KPNearController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPNearController.h; sourceTree = "<group>"; };
+		2AF8B7AF1E7FB037000E49DF /* KPNearController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPNearController.m; sourceTree = "<group>"; };
+		2AF8B7B01E7FB037000E49DF /* KPNearController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPNearController.xib; sourceTree = "<group>"; };
+		2AFBBC5D1E78DF43007F63AB /* KPLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFBBC611E78DF43007F63AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AFBBC6A1E78DF43007F63AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AFBBC6D1E78DF43007F63AB /* KPLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KPLive.xcdatamodel; sourceTree = "<group>"; };
+		2AFBBC6F1E78DF43007F63AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFBBC721E78DF43007F63AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AFBBC741E78DF43007F63AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFBBC791E78DF43007F63AB /* KPLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFBBC7D1E78DF43007F63AB /* KPLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPLiveTests.m; sourceTree = "<group>"; };
+		2AFBBC7F1E78DF43007F63AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFBBC841E78DF43007F63AB /* KPLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFBBC881E78DF43007F63AB /* KPLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPLiveUITests.m; sourceTree = "<group>"; };
+		2AFBBC8A1E78DF43007F63AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFBBCAF1E78E07E007F63AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AFBBCB01E78E07E007F63AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AFBBCB91E78E0EC007F63AB /* KPLive.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPLive.pch; sourceTree = "<group>"; };
+		2AFBBCBD1E78E3A8007F63AB /* KPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPMacros.h; sourceTree = "<group>"; };
+		2AFBBCBE1E78E5F5007F63AB /* KPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPTabBarController.h; sourceTree = "<group>"; };
+		2AFBBCBF1E78E5F5007F63AB /* KPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPTabBarController.m; sourceTree = "<group>"; };
+		2AFBBCC11E78E803007F63AB /* KPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPTabBar.h; sourceTree = "<group>"; };
+		2AFBBCC21E78E803007F63AB /* KPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPTabBar.m; sourceTree = "<group>"; };
+		F1A480F6F973DCF7699B9912 /* Pods-KPLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-KPLive/Pods-KPLive.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFBBC5A1E78DF42007F63AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF8B78D1E7BDF99000E49DF /* VideoToolbox.framework in Frameworks */,
+				2AF8B78B1E7BDF92000E49DF /* QuartzCore.framework in Frameworks */,
+				2AF8B7891E7BDF8A000E49DF /* OpenGLES.framework in Frameworks */,
+				2AF8B7871E7BDF83000E49DF /* MobileCoreServices.framework in Frameworks */,
+				2AF8B7851E7BDF7A000E49DF /* MediaPlayer.framework in Frameworks */,
+				2AF8B7831E7BDF71000E49DF /* libz.tbd in Frameworks */,
+				2AF8B7811E7BDF69000E49DF /* libbz2.tbd in Frameworks */,
+				2AF8B77F1E7BDF60000E49DF /* CoreVideo.framework in Frameworks */,
+				2AF8B77D1E7BDF59000E49DF /* CoreMedia.framework in Frameworks */,
+				2AF8B77B1E7BDF50000E49DF /* CoreGraphics.framework in Frameworks */,
+				2AF8B7791E7BDF48000E49DF /* AVFoundation.framework in Frameworks */,
+				2AF8B7771E7BDF3F000E49DF /* AudioToolbox.framework in Frameworks */,
+				95C13C171BB9E906C9BD8BCD /* Pods_KPLive.framework in Frameworks */,
+				2AF8B7751E7BDF00000E49DF /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFBBC761E78DF43007F63AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFBBC811E78DF43007F63AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A37A1651E822CA7005F1031 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A37A1661E822CBE005F1031 /* KPLoginController.h */,
+				2A37A1671E822CBE005F1031 /* KPLoginController.m */,
+				2A37A1681E822CBE005F1031 /* KPLoginController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2AF8B74E1E7A7917000E49DF /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B74F1E7A7952000E49DF /* KPShowHandler.h */,
+				2AF8B7501E7A7952000E49DF /* KPShowHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		2AF8B79D1E7F885E000E49DF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B79E1E7F885E000E49DF /* Category */,
+				2AF8B79F1E7F885E000E49DF /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2AF8B79E1E7F885E000E49DF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2AF8B79F1E7F885E000E49DF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B7A01E7F886E000E49DF /* KPLocationManager.h */,
+				2AF8B7A11E7F886E000E49DF /* KPLocationManager.m */,
+				2A37A1531E810B67005F1031 /* KPCacheHelper.h */,
+				2A37A1541E810B67005F1031 /* KPCacheHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2AFBBC541E78DF42007F63AB = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC5F1E78DF43007F63AB /* KPLive */,
+				2AFBBC7C1E78DF43007F63AB /* KPLiveTests */,
+				2AFBBC871E78DF43007F63AB /* KPLiveUITests */,
+				2AFBBC5E1E78DF43007F63AB /* Products */,
+				81F6FE4A45DFABCEE0EF32E9 /* Pods */,
+				9DAC37AA73937EA9369DD6CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFBBC5E1E78DF43007F63AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC5D1E78DF43007F63AB /* KPLive.app */,
+				2AFBBC791E78DF43007F63AB /* KPLiveTests.xctest */,
+				2AFBBC841E78DF43007F63AB /* KPLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFBBC5F1E78DF43007F63AB /* KPLive */ = {
+			isa = PBXGroup;
+			children = (
+				2A37A1631E820787005F1031 /* kunpeng.JPG */,
+				2AFBBC961E78E07E007F63AB /* Class */,
+				2AFBBC601E78DF43007F63AB /* Supporting Files */,
+			);
+			path = KPLive;
+			sourceTree = "<group>";
+		};
+		2AFBBC601E78DF43007F63AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC691E78DF43007F63AB /* Main.storyboard */,
+				2AFBBC6F1E78DF43007F63AB /* Assets.xcassets */,
+				2AFBBC711E78DF43007F63AB /* LaunchScreen.storyboard */,
+				2AFBBC741E78DF43007F63AB /* Info.plist */,
+				2AFBBC6C1E78DF43007F63AB /* KPLive.xcdatamodeld */,
+				2AFBBC611E78DF43007F63AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AFBBC7C1E78DF43007F63AB /* KPLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC7D1E78DF43007F63AB /* KPLiveTests.m */,
+				2AFBBC7F1E78DF43007F63AB /* Info.plist */,
+			);
+			path = KPLiveTests;
+			sourceTree = "<group>";
+		};
+		2AFBBC871E78DF43007F63AB /* KPLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC881E78DF43007F63AB /* KPLiveUITests.m */,
+				2AFBBC8A1E78DF43007F63AB /* Info.plist */,
+			);
+			path = KPLiveUITests;
+			sourceTree = "<group>";
+		};
+		2AFBBC961E78E07E007F63AB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2A37A1651E822CA7005F1031 /* Login */,
+				2AF8B79D1E7F885E000E49DF /* Helper */,
+				2AFBBC971E78E07E007F63AB /* Base */,
+				2AFBBC991E78E07E007F63AB /* Launch */,
+				2AFBBC9E1E78E07E007F63AB /* Lib */,
+				2AFBBCA31E78E07E007F63AB /* Live */,
+				2AFBBCA81E78E07E007F63AB /* Me */,
+				2AFBBCB11E78E07E007F63AB /* Show */,
+				2AFBBCAD1E78E07E007F63AB /* NetWork */,
+				2AFBBCAE1E78E07E007F63AB /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2AFBBC971E78E07E007F63AB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBCC11E78E803007F63AB /* KPTabBar.h */,
+				2AFBBCC21E78E803007F63AB /* KPTabBar.m */,
+				2AF8B74B1E7A7881000E49DF /* KPBaseHandler.h */,
+				2AF8B74C1E7A7881000E49DF /* KPBaseHandler.m */,
+				2AF8B71F1E7920AF000E49DF /* KPBaseController.h */,
+				2AF8B7201E7920AF000E49DF /* KPBaseController.m */,
+				2AFBBCBE1E78E5F5007F63AB /* KPTabBarController.h */,
+				2AFBBCBF1E78E5F5007F63AB /* KPTabBarController.m */,
+				2AF8B72B1E7921B8000E49DF /* KPNavigationController.h */,
+				2AF8B72C1E7921B8000E49DF /* KPNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AFBBC991E78E07E007F63AB /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC9C1E78E07E007F63AB /* Model */,
+				2AFBBC9D1E78E07E007F63AB /* View */,
+				2AFBBC9A1E78E07E007F63AB /* Controller */,
+				2AFBBC9B1E78E07E007F63AB /* Helper */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		2AFBBC9A1E78E07E007F63AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A37A1561E811C4F005F1031 /* KPLaunchController.h */,
+				2A37A1571E811C4F005F1031 /* KPLaunchController.m */,
+				2A37A1581E811C4F005F1031 /* KPLaunchController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AFBBC9B1E78E07E007F63AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2AFBBC9C1E78E07E007F63AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AFBBC9D1E78E07E007F63AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A37A1601E812A8D005F1031 /* LFLivePreview.h */,
+				2A37A1611E812A8D005F1031 /* LFLivePreview.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AFBBC9E1E78E07E007F63AB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBC9F1E78E07E007F63AB /* Controller */,
+				2AFBBCA01E78E07E007F63AB /* Helper */,
+				2AFBBCA11E78E07E007F63AB /* Model */,
+				2AFBBCA21E78E07E007F63AB /* View */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2AFBBC9F1E78E07E007F63AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AFBBCA01E78E07E007F63AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2AFBBCA11E78E07E007F63AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AFBBCA21E78E07E007F63AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AFBBCA31E78E07E007F63AB /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBCA41E78E07E007F63AB /* Controller */,
+				2AFBBCA51E78E07E007F63AB /* Helper */,
+				2AFBBCA61E78E07E007F63AB /* Model */,
+				2AFBBCA71E78E07E007F63AB /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		2AFBBCA41E78E07E007F63AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AFBBCA51E78E07E007F63AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2AFBBCA61E78E07E007F63AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AFBBCA71E78E07E007F63AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AFBBCA81E78E07E007F63AB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBCAB1E78E07E007F63AB /* Model */,
+				2AFBBCAC1E78E07E007F63AB /* View */,
+				2AFBBCA91E78E07E007F63AB /* Controller */,
+				2AFBBCAA1E78E07E007F63AB /* Helper */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2AFBBCA91E78E07E007F63AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B7281E7920EB000E49DF /* KPMeController.h */,
+				2AF8B7291E7920EB000E49DF /* KPMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AFBBCAA1E78E07E007F63AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2AFBBCAB1E78E07E007F63AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AFBBCAC1E78E07E007F63AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AFBBCAD1E78E07E007F63AB /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B7401E7A5723000E49DF /* APIConfig.h */,
+				2AF8B7411E7A57D1000E49DF /* AFHttpTool.h */,
+				2AF8B7421E7A57D1000E49DF /* AFHttpTool.m */,
+				2AF8B7441E7A5851000E49DF /* AFHttpClient.h */,
+				2AF8B7451E7A5851000E49DF /* AFHttpClient.m */,
+				2AF8B7471E7A6666000E49DF /* UIImageView+SDWebImage.h */,
+				2AF8B7481E7A6666000E49DF /* UIImageView+SDWebImage.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		2AFBBCAE1E78E07E007F63AB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBBCBD1E78E3A8007F63AB /* KPMacros.h */,
+				2AFBBCB91E78E0EC007F63AB /* KPLive.pch */,
+				2AFBBCAF1E78E07E007F63AB /* AppDelegate.h */,
+				2AFBBCB01E78E07E007F63AB /* AppDelegate.m */,
+				2AF8B7581E7B720D000E49DF /* MJExtensionConfig.h */,
+				2AF8B7591E7B720D000E49DF /* MJExtensionConfig.m */,
+				2AF8B7691E7B8D9A000E49DF /* UIImageView+Corner.h */,
+				2AF8B76A1E7B8D9A000E49DF /* UIImageView+Corner.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2AFBBCB11E78E07E007F63AB /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B74E1E7A7917000E49DF /* Handler */,
+				2AFBBCB41E78E07E007F63AB /* Model */,
+				2AFBBCB51E78E07E007F63AB /* View */,
+				2AFBBCB21E78E07E007F63AB /* Controller */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		2AFBBCB21E78E07E007F63AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B7251E7920D4000E49DF /* KPShowController.h */,
+				2AF8B7261E7920D4000E49DF /* KPShowController.m */,
+				2AF8B7341E7A1F1F000E49DF /* KPFocusController.h */,
+				2AF8B7351E7A1F1F000E49DF /* KPFocusController.m */,
+				2AF8B76C1E7BAED6000E49DF /* KPHotController.h */,
+				2AF8B76D1E7BAED6000E49DF /* KPHotController.m */,
+				2AF8B7AE1E7FB037000E49DF /* KPNearController.h */,
+				2AF8B7AF1E7FB037000E49DF /* KPNearController.m */,
+				2AF8B7B01E7FB037000E49DF /* KPNearController.xib */,
+				2AF8B7911E7BE02A000E49DF /* KPShowPlayerController.h */,
+				2AF8B7921E7BE02A000E49DF /* KPShowPlayerController.m */,
+				2AF8B7981E7F6ECE000E49DF /* KPShowChatController.h */,
+				2AF8B7991E7F6ECE000E49DF /* KPShowChatController.m */,
+				2AF8B79A1E7F6ECE000E49DF /* KPShowChatController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AFBBCB41E78E07E007F63AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A37A14B1E80FDBE005F1031 /* KPAdvertise.h */,
+				2A37A14C1E80FDBE005F1031 /* KPAdvertise.m */,
+				2AF8B7521E7B718B000E49DF /* KPHotLiveModel.h */,
+				2AF8B7531E7B718B000E49DF /* KPHotLiveModel.m */,
+				2AF8B7551E7B719D000E49DF /* KPCreator.h */,
+				2AF8B7561E7B719D000E49DF /* KPCreator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AFBBCB51E78E07E007F63AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B73D1E7A291D000E49DF /* KPShowTopView.h */,
+				2AF8B73E1E7A291D000E49DF /* KPShowTopView.m */,
+				2AF8B76F1E7BB08C000E49DF /* KPHotAvatorView.h */,
+				2AF8B7701E7BB08C000E49DF /* KPHotAvatorView.m */,
+				2AF8B75B1E7B8788000E49DF /* KPHotLiveCell.h */,
+				2AF8B75C1E7B8788000E49DF /* KPHotLiveCell.m */,
+				2AF8B7A91E7FAEA8000E49DF /* KPNearCollectionCell.h */,
+				2AF8B7AA1E7FAEA8000E49DF /* KPNearCollectionCell.m */,
+				2AF8B7AB1E7FAEA8000E49DF /* KPNearCollectionCell.xib */,
+				2A37A14E1E80FF52005F1031 /* KPAdvertiseView.h */,
+				2A37A14F1E80FF52005F1031 /* KPAdvertiseView.m */,
+				2A37A1511E80FF98005F1031 /* KPAdvertiseView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81F6FE4A45DFABCEE0EF32E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C76BFF4E47A4925187723C0 /* Pods-KPLive.debug.xcconfig */,
+				F1A480F6F973DCF7699B9912 /* Pods-KPLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DAC37AA73937EA9369DD6CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8B7821E7BDF71000E49DF /* libz.tbd */,
+				2AF8B7801E7BDF69000E49DF /* libbz2.tbd */,
+				2AF8B78C1E7BDF99000E49DF /* VideoToolbox.framework */,
+				2AF8B78A1E7BDF92000E49DF /* QuartzCore.framework */,
+				2AF8B7881E7BDF8A000E49DF /* OpenGLES.framework */,
+				2AF8B7861E7BDF83000E49DF /* MobileCoreServices.framework */,
+				2AF8B7841E7BDF7A000E49DF /* MediaPlayer.framework */,
+				2AF8B77E1E7BDF60000E49DF /* CoreVideo.framework */,
+				2AF8B77C1E7BDF59000E49DF /* CoreMedia.framework */,
+				2AF8B77A1E7BDF50000E49DF /* CoreGraphics.framework */,
+				2AF8B7781E7BDF48000E49DF /* AVFoundation.framework */,
+				2AF8B7761E7BDF3F000E49DF /* AudioToolbox.framework */,
+				2AF8B7741E7BDF00000E49DF /* IJKMediaFramework.framework */,
+				17C3FCD920D172AF7CC3AE5E /* Pods_KPLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFBBC5C1E78DF42007F63AB /* KPLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFBBC8D1E78DF43007F63AB /* Build configuration list for PBXNativeTarget "KPLive" */;
+			buildPhases = (
+				5F2B3A8233715D2BA09965E0 /* [CP] Check Pods Manifest.lock */,
+				2AFBBC591E78DF42007F63AB /* Sources */,
+				2AFBBC5A1E78DF42007F63AB /* Frameworks */,
+				2AFBBC5B1E78DF42007F63AB /* Resources */,
+				4C29C4D8D7315D5225FA03A1 /* [CP] Embed Pods Frameworks */,
+				BC094805E8227D63E251779A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPLive;
+			productName = KPLive;
+			productReference = 2AFBBC5D1E78DF43007F63AB /* KPLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AFBBC781E78DF43007F63AB /* KPLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFBBC901E78DF43007F63AB /* Build configuration list for PBXNativeTarget "KPLiveTests" */;
+			buildPhases = (
+				2AFBBC751E78DF43007F63AB /* Sources */,
+				2AFBBC761E78DF43007F63AB /* Frameworks */,
+				2AFBBC771E78DF43007F63AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFBBC7B1E78DF43007F63AB /* PBXTargetDependency */,
+			);
+			name = KPLiveTests;
+			productName = KPLiveTests;
+			productReference = 2AFBBC791E78DF43007F63AB /* KPLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AFBBC831E78DF43007F63AB /* KPLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFBBC931E78DF43007F63AB /* Build configuration list for PBXNativeTarget "KPLiveUITests" */;
+			buildPhases = (
+				2AFBBC801E78DF43007F63AB /* Sources */,
+				2AFBBC811E78DF43007F63AB /* Frameworks */,
+				2AFBBC821E78DF43007F63AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFBBC861E78DF43007F63AB /* PBXTargetDependency */,
+			);
+			name = KPLiveUITests;
+			productName = KPLiveUITests;
+			productReference = 2AFBBC841E78DF43007F63AB /* KPLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFBBC551E78DF42007F63AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liukunpeng;
+				TargetAttributes = {
+					2AFBBC5C1E78DF42007F63AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3BEH3R543L;
+						ProvisioningStyle = Automatic;
+					};
+					2AFBBC781E78DF43007F63AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3BEH3R543L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AFBBC5C1E78DF42007F63AB;
+					};
+					2AFBBC831E78DF43007F63AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3BEH3R543L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AFBBC5C1E78DF42007F63AB;
+					};
+				};
+			};
+			buildConfigurationList = 2AFBBC581E78DF42007F63AB /* Build configuration list for PBXProject "KPLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFBBC541E78DF42007F63AB;
+			productRefGroup = 2AFBBC5E1E78DF43007F63AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFBBC5C1E78DF42007F63AB /* KPLive */,
+				2AFBBC781E78DF43007F63AB /* KPLiveTests */,
+				2AFBBC831E78DF43007F63AB /* KPLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFBBC5B1E78DF42007F63AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFBBC731E78DF43007F63AB /* LaunchScreen.storyboard in Resources */,
+				2A37A15A1E811C4F005F1031 /* KPLaunchController.xib in Resources */,
+				2A37A16A1E822CBE005F1031 /* KPLoginController.xib in Resources */,
+				2AF8B79C1E7F6ECE000E49DF /* KPShowChatController.xib in Resources */,
+				2AF8B7B21E7FB037000E49DF /* KPNearController.xib in Resources */,
+				2AFBBC701E78DF43007F63AB /* Assets.xcassets in Resources */,
+				2A37A1641E820787005F1031 /* kunpeng.JPG in Resources */,
+				2AFBBC6B1E78DF43007F63AB /* Main.storyboard in Resources */,
+				2A37A1521E80FF98005F1031 /* KPAdvertiseView.xib in Resources */,
+				2AF8B7AD1E7FAEA8000E49DF /* KPNearCollectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFBBC771E78DF43007F63AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFBBC821E78DF43007F63AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C29C4D8D7315D5225FA03A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPLive/Pods-KPLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2B3A8233715D2BA09965E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC094805E8227D63E251779A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPLive/Pods-KPLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFBBC591E78DF42007F63AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF8B7541E7B718B000E49DF /* KPHotLiveModel.m in Sources */,
+				2A37A1501E80FF52005F1031 /* KPAdvertiseView.m in Sources */,
+				2A37A14D1E80FDBE005F1031 /* KPAdvertise.m in Sources */,
+				2AF8B7431E7A57D1000E49DF /* AFHttpTool.m in Sources */,
+				2AFBBCC31E78E803007F63AB /* KPTabBar.m in Sources */,
+				2AF8B7461E7A5851000E49DF /* AFHttpClient.m in Sources */,
+				2AF8B7571E7B719D000E49DF /* KPCreator.m in Sources */,
+				2AF8B7B11E7FB037000E49DF /* KPNearController.m in Sources */,
+				2AF8B75A1E7B720D000E49DF /* MJExtensionConfig.m in Sources */,
+				2A37A1591E811C4F005F1031 /* KPLaunchController.m in Sources */,
+				2AF8B7511E7A7952000E49DF /* KPShowHandler.m in Sources */,
+				2AF8B75D1E7B8788000E49DF /* KPHotLiveCell.m in Sources */,
+				2A37A1621E812A8D005F1031 /* LFLivePreview.m in Sources */,
+				2AFBBC6E1E78DF43007F63AB /* KPLive.xcdatamodeld in Sources */,
+				2AF8B7711E7BB08C000E49DF /* KPHotAvatorView.m in Sources */,
+				2AF8B72A1E7920EB000E49DF /* KPMeController.m in Sources */,
+				2AFBBC621E78DF43007F63AB /* main.m in Sources */,
+				2AF8B72D1E7921B8000E49DF /* KPNavigationController.m in Sources */,
+				2AF8B7491E7A6666000E49DF /* UIImageView+SDWebImage.m in Sources */,
+				2AF8B76B1E7B8D9A000E49DF /* UIImageView+Corner.m in Sources */,
+				2AF8B7211E7920AF000E49DF /* KPBaseController.m in Sources */,
+				2AF8B7A21E7F886E000E49DF /* KPLocationManager.m in Sources */,
+				2AF8B7271E7920D4000E49DF /* KPShowController.m in Sources */,
+				2AF8B7361E7A1F1F000E49DF /* KPFocusController.m in Sources */,
+				2AF8B73F1E7A291D000E49DF /* KPShowTopView.m in Sources */,
+				2AFBBCC01E78E5F5007F63AB /* KPTabBarController.m in Sources */,
+				2A37A1691E822CBE005F1031 /* KPLoginController.m in Sources */,
+				2A37A1551E810B67005F1031 /* KPCacheHelper.m in Sources */,
+				2AF8B7931E7BE02A000E49DF /* KPShowPlayerController.m in Sources */,
+				2AF8B76E1E7BAED6000E49DF /* KPHotController.m in Sources */,
+				2AF8B74D1E7A7881000E49DF /* KPBaseHandler.m in Sources */,
+				2AF8B79B1E7F6ECE000E49DF /* KPShowChatController.m in Sources */,
+				2AF8B7AC1E7FAEA8000E49DF /* KPNearCollectionCell.m in Sources */,
+				2AFBBCB61E78E07E007F63AB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFBBC751E78DF43007F63AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFBBC7E1E78DF43007F63AB /* KPLiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFBBC801E78DF43007F63AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFBBC891E78DF43007F63AB /* KPLiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFBBC7B1E78DF43007F63AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFBBC5C1E78DF42007F63AB /* KPLive */;
+			targetProxy = 2AFBBC7A1E78DF43007F63AB /* PBXContainerItemProxy */;
+		};
+		2AFBBC861E78DF43007F63AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFBBC5C1E78DF42007F63AB /* KPLive */;
+			targetProxy = 2AFBBC851E78DF43007F63AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AFBBC691E78DF43007F63AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFBBC6A1E78DF43007F63AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AFBBC711E78DF43007F63AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFBBC721E78DF43007F63AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AFBBC8B1E78DF43007F63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AFBBC8C1E78DF43007F63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFBBC8E1E78DF43007F63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C76BFF4E47A4925187723C0 /* Pods-KPLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KPLive/Class/Other/KPLive.pch";
+				INFOPLIST_FILE = KPLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentacle.KPLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		2AFBBC8F1E78DF43007F63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A480F6F973DCF7699B9912 /* Pods-KPLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KPLive/Class/Other/KPLive.pch";
+				INFOPLIST_FILE = KPLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentacle.KPLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		2AFBBC911E78DF43007F63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3BEH3R543L;
+				INFOPLIST_FILE = KPLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentacle.KPLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPLive.app/KPLive";
+			};
+			name = Debug;
+		};
+		2AFBBC921E78DF43007F63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3BEH3R543L;
+				INFOPLIST_FILE = KPLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentacle.KPLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPLive.app/KPLive";
+			};
+			name = Release;
+		};
+		2AFBBC941E78DF43007F63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3BEH3R543L;
+				INFOPLIST_FILE = KPLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentacle.KPLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KPLive;
+			};
+			name = Debug;
+		};
+		2AFBBC951E78DF43007F63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3BEH3R543L;
+				INFOPLIST_FILE = KPLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentacle.KPLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KPLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFBBC581E78DF42007F63AB /* Build configuration list for PBXProject "KPLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFBBC8B1E78DF43007F63AB /* Debug */,
+				2AFBBC8C1E78DF43007F63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFBBC8D1E78DF43007F63AB /* Build configuration list for PBXNativeTarget "KPLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFBBC8E1E78DF43007F63AB /* Debug */,
+				2AFBBC8F1E78DF43007F63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFBBC901E78DF43007F63AB /* Build configuration list for PBXNativeTarget "KPLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFBBC911E78DF43007F63AB /* Debug */,
+				2AFBBC921E78DF43007F63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFBBC931E78DF43007F63AB /* Build configuration list for PBXNativeTarget "KPLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFBBC941E78DF43007F63AB /* Debug */,
+				2AFBBC951E78DF43007F63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AFBBC6C1E78DF43007F63AB /* KPLive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AFBBC6D1E78DF43007F63AB /* KPLive.xcdatamodel */,
+			);
+			currentVersion = 2AFBBC6D1E78DF43007F63AB /* KPLive.xcdatamodel */;
+			path = KPLive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AFBBC551E78DF42007F63AB /* Project object */;
+}

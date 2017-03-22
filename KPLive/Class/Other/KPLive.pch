@@ -1,0 +1,21 @@
+//
+//  KPLive.pch
+//  KPLive
+//
+//  Created by kunpeng on 2017/3/15.
+//  Copyright © 2017年 liukunpeng. All rights reserved.
+//
+
+#ifndef KPLive_pch
+#define KPLive_pch
+#define MAS_SHORTHAND
+
+#import "KPMacros.h"
+#import "APIConfig.h"
+#import <Masonry/Masonry.h>
+#import <YYKit/YYKit.h>
+#import "UIImageView+SDWebImage.h"
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/SDWebImageManager.h>
+
+#endif /* KPLive_pch */

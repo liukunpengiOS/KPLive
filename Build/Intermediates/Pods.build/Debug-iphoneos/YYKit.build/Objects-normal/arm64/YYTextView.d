@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/YYTextView.m \
+  /Users/liukunpeng/Desktop/KPLive/Pods/Target\ Support\ Files/YYKit/YYKit-prefix.pch \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/YYTextView.h \
+  /Users/liukunpeng/Desktop/KPLive/Build/Intermediates/Pods.build/Debug-iphoneos/YYKit.build/module.modulemap \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/String/YYTextParser.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextLayout.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextDebugOption.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextLine.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/String/YYTextAttribute.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextInput.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Base/YYKitMacro.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextContainerView.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextSelectionView.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextMagnifier.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextEffectWindow.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/Component/YYTextKeyboardManager.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/String/YYTextUtilities.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Base/Quartz/YYCGUtilities.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Utility/YYTransaction.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Utility/YYWeakProxy.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Base/UIKit/UIView+YYAdd.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/String/NSAttributedString+YYText.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/String/YYTextRubyAnnotation.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Text/String/UIPasteboard+YYText.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Base/UIKit/UIDevice+YYAdd.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Base/UIKit/UIApplication+YYAdd.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Image/YYImage.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Image/YYAnimatedImageView.h \
+  /Users/liukunpeng/Desktop/KPLive/Pods/YYKit/YYKit/Image/YYImageCoder.h
